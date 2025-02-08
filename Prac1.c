@@ -59,7 +59,7 @@ int main()
 
     
 //8 0100
-    a = (a<<8);                                             
+    a = (1<<8) ^ (0<<0);                                             
     printf("\na = %X", a);
 
     return 0;
